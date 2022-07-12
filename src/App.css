@@ -1,0 +1,101 @@
+body {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.label {
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.v-center {
+  justify-content: center;
+}
+
+.h-center {
+  align-items: center;
+}
+
+.pa-16 {
+  padding: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: grey;
+  color: white;
+}
+
+.w-50 {
+  width: 50%;
+  min-width: 250px;
+}
+
+button {
+  width: 100%;
+}
+
+/* .theContents {
+  margin: auto;
+  width: 60%;
+  padding: 90px;
+} */
+
+#resetFunction {
+  width: 15px;
+}
+
+#radiooptions {
+  text-justify: auto;
+}
+
+.special-text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.pa-4 {
+  padding: 2rem;
+}
